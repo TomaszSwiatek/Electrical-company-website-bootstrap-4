@@ -1,0 +1,30 @@
+//two based color scheme and additional neutral colors
+//first base color
+$color-base-first: #f9a93b;
+$color-base-first-darken: darken($color-base-first, 40%);
+$color-base-first-lighten: lighten($color-base-first, 12%);
+$color-base-first-saturated: saturate($color-base-first, 30%);
+$color-base-first-grayscale: grayscale($color-base-first); //color which is opposed to that on color's shield
+$color-base-first-complementary: complement($color-base-first);
+//background jumbotron, navbar
+$color-background: #1a99aa;
+//second base color
+$color-base-second: darken($color-background, 10%);
+$color-base-second-darken: darken($color-base-second, 20%);
+$color-base-second-lighten: lighten($color-base-second, 40%);
+$color-base-second-saturated: saturate($color-base-second, 30%);
+$color-base-second-grayscale: grayscale($color-base-second); //color which is opposed to that on color's shield
+$color-base-second-complementary: complement($color-base-second);
+//neutral colors
+$color-gray: hsl(0, 0%, 50%);
+$color-gray-darken: darken($color-gray, 40%);
+$color-gray-lighten: lighten($color-gray, 40%);
+$color-white: hsl(0, 0%, 100%);
+//______________________________________________
+//$text-font-logo: 'Dancing Script', cursive;
+$text-font-logo: 'Source Code Pro', monospace;
+
+//color fonts
+$color-font-base: #241704;
+$color-font-lighten: lighten($color-font-base, 40%);
+

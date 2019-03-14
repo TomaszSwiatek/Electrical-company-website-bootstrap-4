@@ -1,0 +1,308 @@
+body {
+  background-color: #fbc376;
+  background: linear-gradient(180deg, #f9a93b 0%, white 15%, #f9a93b 30%, #1a99aa 50%, #f9a93b 75%); }
+
+.blog-topics .card,
+.translations-cards .card,
+.pricelist .card,
+.reference .card {
+  border: 0.1rem solid #13717e; }
+
+h3 {
+  font-size: 1.3rem; }
+
+.jumbotron .jumbotron-fluid .background {
+  background-color: #1a99aa; }
+
+.alert p {
+  color: #494949; }
+
+.alert a {
+  color: #494949; }
+  .alert a:hover, .alert a:active, .alert a:focus {
+    color: black;
+    text-decoration: none; }
+
+.alert button .agree {
+  background-color: #13717e; }
+
+.alert button .not-now {
+  background-color: #494949; }
+
+nav.navbar.navbar-expand-lg {
+  opacity: 0.8;
+  background-color: #1a99aa; }
+  nav.navbar.navbar-expand-lg .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+    margin-right: 0.7rem; }
+    nav.navbar.navbar-expand-lg .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+      color: #f9a93b;
+      text-decoration: none; }
+
+i {
+  margin-right: 0.5rem;
+  color: #fbc376; }
+
+.jumbotron {
+  background-color: #1a99aa;
+  opacity: 0.8; }
+  .jumbotron h1 {
+    font-family: "Source Code Pro", monospace; }
+
+.translations-cards {
+  margin-bottom: 1rem; }
+  .translations-cards .card {
+    margin-top: 1rem; }
+  .translations-cards a.btn {
+    box-shadow: 7px 7px 23px -4px black;
+    background-color: #13717e;
+    border-color: #062225;
+    color: white;
+    margin: 0 auto 0 auto;
+    display: block;
+    transition: opacity 0.5s linear;
+    transition: transform 0.3s linear; }
+    .translations-cards a.btn:hover {
+      opacity: 0.8; }
+    .translations-cards a.btn:hover {
+      transform: scale(1.02); }
+  .translations-cards p.card-text {
+    text-align: justify;
+    text-indent: 1.5em;
+    color: #494949; }
+  .translations-cards h3.card-title {
+    text-align: center;
+    padding: 1rem;
+    color: black; }
+
+.collapse table,
+.collapse li {
+  color: #494949; }
+
+.collapse td .badge {
+  font-size: 0.5em;
+  vertical-align: top; }
+
+.card-header {
+  background: #13717e;
+  border-radius: 24px 24px 24px 0px;
+  border: 0.05rem solid white;
+  transition: opacity 0.5s linear; }
+  .card-header:hover {
+    opacity: 0.8; }
+  .card-header:active {
+    text-decoration: none; }
+  .card-header button {
+    color: #494949;
+    transition: transform 0.5s linear; }
+    .card-header button:hover, .card-header button:active, .card-header button:focus {
+      color: #494949;
+      text-decoration: none; }
+    .card-header button:hover {
+      transform: scale(1.1); }
+
+.modal-content {
+  background: transparent;
+  border: 0; }
+
+.modal-header {
+  border: 0; }
+  .modal-header span {
+    font-size: 4rem; }
+
+.blog-topics .card {
+  cursor: pointer; }
+  .blog-topics .card a {
+    color: #062225; }
+    .blog-topics .card a:hover, .blog-topics .card a:active, .blog-topics .card a:focus {
+      color: #494949;
+      text-decoration: none; }
+
+.blog-topics p.card-text {
+  text-align: justify;
+  text-indent: 1.5em; }
+
+.blog-topics small {
+  color: white; }
+
+div.container.reference div.card {
+  margin-bottom: 2rem; }
+  div.container.reference div.card div.card-body {
+    text-align: justify;
+    text-indent: 1.5em; }
+    div.container.reference div.card div.card-body blockquote {
+      color: #494949;
+      text-align: justify;
+      text-indent: 1.5em; }
+    div.container.reference div.card div.card-body h5.card-title {
+      text-align: center;
+      color: #494949; }
+
+.contact {
+  margin-bottom: 4rem; }
+
+.background-table {
+  background: white;
+  border: 0.1rem solid #13717e; }
+
+.map-responsive iframe {
+  border: 0.1rem solid #13717e; }
+
+footer a {
+  padding: 0;
+  margin: 0;
+  color: white; }
+  footer a:hover, footer a:active, footer a:focus {
+    color: #494949;
+    text-decoration: none; }
+
+.other-sites-general .card-body {
+  border: 0.1rem solid #13717e; }
+
+.other-sites-general a {
+  color: #494949; }
+  .other-sites-general a:hover, .other-sites-general a:active, .other-sites-general a:focus {
+    color: black;
+    text-decoration: none; }
+
+.other-sites-general .card-header {
+  font-family: "Source Code Pro", monospace;
+  background-color: #fbc376; }
+
+.other-sites-general p {
+  text-align: justify;
+  text-indent: 1.5em; }
+
+.other-sites-general .text-muted {
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 0; }
+
+.other-sites-general blockquote {
+  border-left: 5px solid rgba(221, 221, 221, 0.87);
+  padding-left: 0.5rem;
+  margin-left: 3rem;
+  position: relative; }
+
+.other-sites-general blockquote::after {
+  position: absolute;
+  bottom: 0;
+  right: auto;
+  color: #eee;
+  font-size: 10em;
+  line-height: 0;
+  content: '"';
+  font-family: "Source Code Pro", monospace; }
+
+.other-sites-general h3 {
+  margin-top: 2rem; }
+
+.other-sites-general ul {
+  margin: 2em 0 2em 3em; }
+
+.text-logo {
+  padding: 2rem 4rem;
+  border: 0.1rem solid #13717e; }
+  .text-logo h2 {
+    font-family: "Source Code Pro", monospace; }
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 14px; }
+  h1 {
+    font-size: 1.6em; }
+  h2.display-4.py-5.text-center a {
+    font-size: 1.5rem; }
+  .display-4 {
+    font-size: 2em; }
+  p {
+    font-size: 1em; }
+  .card-columns {
+    column-count: 2; }
+  .jumbotron h1 {
+    font-size: 2em; }
+  .jumbotron p.animated {
+    font-size: 1em; }
+  .pricelist .card-body {
+    padding-right: 0.3em;
+    padding-left: 0.3em; }
+    .pricelist .card-body .container {
+      padding-right: 0.3em;
+      padding-left: 0.3em; }
+    .pricelist .card-body li {
+      padding-right: 0.3em;
+      padding-left: 0.3em;
+      font-size: 0.9em; }
+      .pricelist .card-body li div {
+        padding-right: 0.3em;
+        padding-left: 0.3em; }
+    .pricelist .card-body table {
+      font-size: 0.7em; }
+  .translations-cards .card {
+    margin-top: 1em; }
+  .blog-topics p, .reference p {
+    font-size: 0.9em; }
+  .contact .alert {
+    border: 0.1rem solid #13717e; }
+    .contact .alert p {
+      font-size: 1em; }
+  .contact img {
+    margin-bottom: 2rem; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 1.9em; }
+  .card-columns {
+    column-count: 3; }
+  .contact .alert {
+    border: 0.1rem solid #13717e; }
+    .contact .alert p {
+      font-size: 1em; }
+  .jumbotron h1 {
+    font-size: 2.5em; }
+  .jumbotron p.animated {
+    font-size: 1em; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 1.8em; }
+  .card-columns {
+    column-count: 3; }
+  .contact .alert {
+    border: 0.1rem solid #13717e; }
+    .contact .alert p {
+      font-size: 1.5em; }
+  .jumbotron h1 {
+    font-size: 2.5em; }
+  .jumbotron p.animated {
+    font-size: 1em; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 2em; }
+  .card-columns {
+    column-count: 4; }
+  .contact .alert {
+    border: 0.1rem solid #13717e; }
+    .contact .alert p {
+      font-size: 1.7em; }
+  .jumbotron h1 {
+    font-size: 4em; }
+  .jumbotron p.animated {
+    font-size: 1.2em; } }
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.3em; }
+  .card-columns {
+    column-count: 5; }
+  .contact .alert {
+    border: 0.1rem solid #13717e; }
+    .contact .alert p {
+      font-size: 1.9em; }
+  h1 {
+    font-size: 2.5em; }
+  .jumbotron h1 {
+    font-size: 4em; }
+  .jumbotron p.animated {
+    font-size: 1.5em; } }

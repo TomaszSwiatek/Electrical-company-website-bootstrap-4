@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no minimum-scale=1.0 maximum-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Instalacje Elektryczne wykonywane przez poznańskich elektryków, według najnowszych standardów</title>
+    <meta name="description" content="Firma skupiająca dwie wartości - nowoczesne podejście i wieloletnią tradycję w tworzeniu instalacji elektrycznych" />
+    <!--    additional fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Courgette|Dancing+Script:400,700|Jua|Lobster&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Caveat:400,700|Courgette|Dancing+Script:400,700|Elsie|Gruppo|Hammersmith+One|Jua|Lobster|Marck+Script|Nothing+You+Could+Do&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--     CSS library - animate.css - on MIT LICENSE - https://github.com/daneden/animate.css/blob/master/LICENSE , author and source here:Daniel Eden, https://github.com/daneden/animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--      favicon - more about - https://en.wikipedia.org/wiki/Favicon-->
+    <link rel="Shortcut icon" href="foto/ikona.ico" />
+    <!--    FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+    <!--   alerts on start - which you can close - RODO and cookies privacy-->
+    <div class="container ">
+
+        <div class="alert  alert-dismissible fade show" role="alert">
+            <p><a href="sites/regulamin.html" class="alert-link" rel="nofollow" target="_blank"><strong>Dbamy o twoje bezpieczeństwo.</strong> W związku ze zmianiami w prawie, prosimy o zapoznanie się z polityką prywatności RODO, w której informujemy o zbieranych danych, celach przetwarzania, czy związanych z tym prawach użytkownika. Wiecej informacji znajdziesz klikając <mark>tutaj</mark></a>.</p>
+            <div class="container d-flex justify-content-end">
+                <button type="button" class="btn btn-info " data-dismiss="alert" aria-label="Close">Zgadzam się</button>
+                <button type="button" class="btn btn-light ml-2" data-dismiss="alert" aria-label="Close">Nie teraz</button>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="alert alert-dismissible fade show" role="alert">
+            <p><a href="sites/regulamin.html" class="alert-link" rel="nofollow" target="_blank">
+                    <strong>Strona korzysta z plików typu 'cookies'</strong>, aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie. Więcej informacji o plikach znajdziesz tutaj</a>.</p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+    </div>
+    <!--    navbar start-->
+    <nav class="navbar navbar-expand-lg   navbar-dark  sticky-top d-flex justify-content-center ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style=""></span> </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav  ml-auto mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Strona Główna<span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reference"><i class="fab fa-accusoft"></i>Referencje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-door-open"></i>Kontakt</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fab fa-angellist"></i>
+                        Oferta
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="sites/instalacjeelektryczne.html">Instalacje elektryczne</a>
+                        <a class="dropdown-item" href="sites/instalacjeinteligentne.html">Instalacje inteligentne</a>
+                        <a class="dropdown-item" href="sites/oswietleniewnetrz.html">Oświetlenie wnętrz</a>
+                        <a class="dropdown-item" href="sites/iluminacje.html">Iluminacje zewnętrzne</a>
+                        <a class="dropdown-item" href="sites/pomiary.html">Pomiary elektryczne</a>
+                        <a class="dropdown-item" href="sites/instalacjeteleinformatyczne.html">Sieci strukturalne UTP</a>
+                        <a class="dropdown-item" href="sites/instalacjeodgromowe.html">Instalacje odgromowe</a>
+                        <a class="dropdown-item" href="sites/systemygrzewcze.html">Elektryczne systemy grzewcze</a>
+                        <a class="dropdown-item" href="sites/systemyalarmowe.html">Systemy alarmowe i antywłamaniowe</a>
+                        <a class="dropdown-item" href="sites/systemydomofonowe.html">Systemy domofonowe i wideobramofonowe</a>
+                        <a class="dropdown-item" href="sites/systemyaudiowizualne.html">Systemy audiowizualne i multiroom</a>
+                        <a class="dropdown-item" href="sites/naprawyawarii.html">naprawy awarii instalacji elektrycznych</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--jumbotron start-->
+    <div class="jumbotron jumbotron-fluid  text-white text-center">
+        <div class="container">
+
+            <h1 class="display-3 animated zoomInDown delay-6s">Instalatorstwo Elektryczne</h1>
+            <p class="lead animated fadeInRightBig rotateInUpLeft">Instalacje elektryczne wykonane przez doświadczonych elektryków</p>
+        </div>
+    </div>
+    <!--jumbotron end-->
+    <!-- cards start - offer -->
+    <div class="container translations-cards">
+        <h2 class="display-4 py-5 text-center"><a name="offer">Oferta firmy</a></h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/IMGP3068.JPG" alt="wykonawstwo instalacji elektrycznych w Poznaniu">
+                    <div class="card-body">
+                        <h3 class="card-title">Instalacje elektryczne</h3>
+                        <p class="card-text">Instalacje w całości nowe i częsciowe modernizacje instalacji elektrycznej. Wykonujemy kompleksowo, według norm i elektrotechnicznych zasad instalację elektryczną. </p>
+                        <a href="sites/instalacjeelektryczne.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto//zwymiarowane-pod-strone/instal1.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Instalacje inteligentne</h3>
+                        <p class="card-text">Dziś trudno wyobrazić już sobie dom, bez sterowania roletami, często światłem, czy sterowaniem ogrzewania. Wykonamy dla Ciebie instalacje, które ułatwią funkcjonowanie twojego domu.</p>
+                        <a href="sites/instalacjeinteligentne.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/lampy2.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Oświetlenie wnętrz</h3>
+                        <p class="card-text">Masz rozbudowany projekt oświetlenia, dużą wysokość, konieczną solidność przy wykonaniu montażu oświetlenia? A może poprostu chcesz zawiesić kilka lamp?</p>
+                        <a href="sites/oswietleniewnetrz.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/ilum3.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Iluminacje zewnętrzne</h3>
+                        <p class="card-text">Jesteś właścicielem kamienicy, obiektu usługowego, czy poprostu domu jednorodzinnego? Chcesz by twoja elewacja rozświetliła się nocną porą? Mamy w tym doświadczenie i wsparcie projektowe.</p>
+                        <a href="sites/iluminacje.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/pomiary3.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Pomiary elektryczne</h3>
+                        <p class="card-text">Pomiary to obowiązek wsród zarządców kamienic. Dobrze i sumiennie wykonywane pomiary prowadzą do wczesnego wykrycia usterek oraz są podstawą weryfikacji stanu instalacji elektrycznej w budynku i lokalach użykowych / mieszkalnych.</p>
+                        <a href="sites/pomiary.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/teleinf1.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Sieci strukturalne UTP</h3>
+                        <p class="card-text">Najczęściej wykonywane w obiektach biurowo - handlowych. Jeżeli chcą Państwo wykonać kompleksową, profesjonalną sieć informatyczną, zainstalaować "rack'ową", serwer, dodatkowe zasilanie. Sieć wyposażyć w urządzenia typu "switch", ta oferta jest skierowana do Was.</p>
+                        <a href="sites/instalacjeteleinformatyczne.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/IMGP3101.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Instalacje odgromowe</h3>
+                        <p class="card-text">Kompleksowe usługi, zarówno dla domów jednorodzinnych, jak i większych budynków. Odgromy wykonywane w różnych technologiach. Zarówno w instalacji otokowej, jak i wykorzystującej pilony. Wyposażamy wszystkie rodzaje dachów i elewacji w schludne instalacje odgromowe. Instalację kończymy pomiarami potwierdzjącymi skuteczność.</p>
+                        <a href="sites/instalacjeodgromowe.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/instal2.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Elektryczne systemy grzewcze</h3>
+                        <p class="card-text">Jeden ze sposobów grzania budynków. W ostatnim czasie popularnym ze względu na dobrą integrację ze źródłami odnawialnymi - panelami fotowoltaicznymi. W takim połączeniu ta energia nie musi być droga.</p>
+                        <a href="sites/systemygrzewcze.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/vivaro.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Systemy alarmowe i antywłamaniowe</h3>
+                        <p class="card-text">Montujemy alarmy znanych marek. Dostosowujemy ofertę do Państwa oczekiwań. Instalacje wykonane są w sposób przemyślany i przedyskutowany przed rozpoczęciem prac elektrycznych.</p>
+                        <a href="sites/systemyalarmowe.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/instal13.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Systemy domofonowe i wideobramofonowe</h3>
+                        <p class="card-text">Instalacje domofonowe, wykorzystujące nowoczesne technologie, również te niewymagające tworzenia sieci strukturalnej. Inspiracje czerpiemy z najnowszych, sprawdzonych rozwiązań instalacyjnych na rynku.</p>
+                        <a href="sites/systemydomofonowe.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/instal6.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Systemy audiowizualne i multiroom</h3>
+                        <p class="card-text">Bardziej zaawansowane systemy instalacji elektrycznych, mające na celu zapewnienie komfortu audiowizualnego w salonach domów jednorodzinych, czy w pokojach konferencyjnych.</p>
+                        <a href="sites/systemyaudiowizualne.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <!--images source - pixabay / CCO license free for commercial use -->
+                    <img class="card-img-top" src="foto/zwymiarowane-pod-strone/IMGP3059.JPG">
+                    <div class="card-body">
+                        <h3 class="card-title">Naprawy instalacji elektrycznych</h3>
+                        <p class="card-text">Jeżeli borykają się Państwo z częstymi awariami instalacji elektrycznych, zwarciami, usterkami światła czy prądu. Zapraszamy do skontaktowania się z nami.</p>
+                        <a href="sites/naprawyawarii.html" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--       card end (offer)-->
+    <!--    reference - cards which could be open like modal-->
+    <div class="container blog-topics">
+        <h2 class="display-4 py-5  text-center"><a name="reference">Dyplomy i podziękowania dla naszej firmy elektrycznej</a></h2>
+        <div class="card-columns">
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-1">
+                <img class="card-img-top" src="foto/dyplomatycznie/Deierling%20refer004-72dpi.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-2">
+                <img class="card-img-top" src="foto/dyplomatycznie/IMGP2549.JPG" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-3">
+                <img class="card-img-top" src="foto/dyplomatycznie/IMGP2555.JPG" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-4">
+                <img class="card-img-top" src="foto/dyplomatycznie/IMGP2557.JPG" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-5">
+                <img class="card-img-top" src="foto/dyplomatycznie/IMGP2558.JPG" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-6">
+                <img class="card-img-top" src="foto/dyplomatycznie/referencje%201.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-7">
+                <img class="card-img-top" src="foto/dyplomatycznie/referencje%202.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-8">
+                <img class="card-img-top" src="foto/dyplomatycznie/referencje%204.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-9">
+                <img class="card-img-top" src="foto/dyplomatycznie/referencje%205.jpg" alt="Card image cap">
+            </div>
+
+            <div class="card" data-toggle="modal" data-target="#Modal-ref-10">
+                <img class="card-img-top" src="foto/dyplomatycznie/Satel1003-72dpi.jpg" alt="Card image cap">
+            </div>
+
+        </div>
+
+    </div>
+    <!--    reference - cards and modals end-->
+    <!--    REFERENCE - cards connected together----------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container reference">
+        <h2 class="display-4 py-5  text-center"><a name="">Wybrane listy referencyjne</a></h2>
+
+        <div class="card-group">
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="foto/pixabay/action-2277292_1920.jpg" alt="elektryk w poznaniu polecany">
+                        <div class="card-body">
+                            <h5 class="card-title">Deierling Ska sp. z o.o. - zarządca licznych budynków w Poznaniu</h5>
+                            <p class="card-text">
+                                Spółka Deierling i Ska sp. z o.o. zaświadcza, że usługi świadczone przez firmę Instalatorstwo Elektryczne i Pomiary Kontrolne Marek Świątek z siedzibą w Poznaniu, ul Kosowska 6, wykonywane są rzetelnie, fachowo, profesjonalnie, z dużym zaangażowaniem i odpowiedzialnością i inwencją własną.
+                            </p>
+                            <p class="card-text">Prace z zakresu wykonywania instalacji elektrycznej, telefonicznej, komputerowej, domofonowej realizowane były terminowo i fachowo.</p>
+                            <p class="card-text">Zakres zleceń obejmował roboty zewnętrzne oraz prace wewnątrz budynków biurowo - handlowo - usługowych, a także w kamienicach wpisanych do rejestru zabytków A/468/2002 przy ul. Szkolnej 5, Wrocławskiej 6 i Gołębiej 5 w Poznaniu.</p>
+                            <p class="card-text">Prace prowadzone były zgodnie z obowiązującą ustawą prawa budowlanego i nie było do nich zastrzeżeń.</p>
+                            <p class="card-text">Dzięki dużemu zaangażowaniu i doświadczeniu, zlecenia były realizowane sprawnie i terminowo. Współpracujemy z firmą od wielu lat w sposób ciągły, powierzając jej także bieżące, niezbędne remonty.</p>
+                            <p class="card-text">Deierling i Ska sp. z o.o. z pełną odpowiedzialnością może polecić usługi firmy Instalatorstwo Elektryczne i Pomiary Kontrolne Marek Świątek z siedzibą w Poznaniu, przy ul. Kosowskiej 6.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted blockquote-footer"> Podziękowanie od firmy "DEIERLING i SKA", za znakomite wykonanie kompleksowej instalacji elektrycznej budynku biurowego na ul. Składowej 5e w Poznaniu.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="foto/pixabay/calligraphy-2658504_1920.jpg" alt="poznański elektryk z referencjami">
+                        <div class="card-body">
+                            <h5 class="card-title">Stowarzyszenie Właścicieli "Mój Dom" w Poznaniu</h5>
+                            <p class="card-text">
+                                Firma Instalatorstwo Elektryczne i Pomiary Kontrolne Marek Świątek, z siedzibą w Poznaniu, ul. Kosowska 6, 60-464, od kilkudziesięciu lat świadczy szereg fachowych usług elektrotechnicznych, cechujących się solidnością i bardzo dobrą jakością wykonania.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted blockquote-footer">Stowarzyszenie Właścicieli "Mój Dom" w Poznaniu. Biuro Usług Administracji Domów, ul. Limanowskiego 31, Poznań.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="foto/pixabay/startup-593341_1920.jpg" alt="referencje dla poznańskiej firmy wykonującej instalacje elektryczne">
+                        <div class="card-body">
+                            <h5 class="card-title">Filharmonię Poznańską im. Tadeusza Szeligowskiego z siedzibą w Poznaniu</h5>
+                            <p class="card-text">
+                                Mamy przyjemność polecić usługi firmy Instalatorstwo Elektryczne i Pomiary Kontrolne Marek Świątek. Zakład zrealizował dla nas w 2008 roku częściową modernizację instalacji w pomieszczeniach biurowych. Dodatkowo wykonane zostały prace związane z budową szkieletowej sieci teleinformatycznej. Obecnie dalej kontynuujemy współpracę w zakresie konserwacji i napraw bieżących.
+                            </p>
+                            <p class="card-text">
+                                W dotychczas zleconych pracach firma wykazała się dużą solidnością, sumiennością i fachowością. Pracownicy wykazują dobry poziom przygotowania merytorycznego i praktycznego do zawodu oraz posiadają duże doświadczenie.
+                            </p>
+                            <p class="card-text">
+                                Jesteśmy zadowoleni z obecnej współpracy. Z pełną odpowiedzialnością możemy polecić Państwu wykonwacę, jako firmę godną zaufania.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted blockquote-footer">Referencje wystawione przez Filharmonię Poznańską im. Tadeusza Szeligowskiego z siedzibą w Poznaniu.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   CONTACT ------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="container contact">
+
+        <h2 class="display-4 py-5 text-center"><a name="contact">Dane kontaktowe</a></h2>
+        <img src="foto/Logo_gotowe_B.png" class="img-fluid mx-auto d-block mb-5" alt="...">
+        <p class="h5 text-center mb-5">Prace wykonujemy u klienta, serdecznie prosimy o wcześniejszy kontakt telefoniczny.</p>
+        <div class="row">
+
+            <div class="col">
+                <table class="table d-flex table-striped justify-content-center ">
+                    <tbody class="background-table table-bordered">
+                        <tr>
+                            <th scope="row">Nazwa firmy</th>
+                            <td>Instalatorstwo Elektryczne i Pomiary Kontrolne Marek Świątek</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adres</th>
+                            <td>ul. Kosowska 6, 60-464 Poznań</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Telefon</th>
+                            <td> +48 501 425 130</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">E-mail</th>
+                            <td>marek_swiatek@poczta.onet.pl</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">NIP</th>
+                            <td>781 101 25 78</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">REGON</th>
+                            <td>632481846</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Godziny pracy</th>
+                            <td>7 - 15 w dniach od poniedziałku do piątku.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <!--    CONTACT END-->
+    <!--FOOTER -->
+    <footer class="jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid text-white text-center mb-0 mt-5">
+            <div class="container" id="footer">
+                <a href="sites/regulamin.html" class="mb-3">Polityka Prywatności</a>
+            </div>
+        </div>
+    </footer>
+    <!--   FOOTER END-->
+    <!--    MODALS -->
+    <div class="container">
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/Deierling%20refer004-72dpi.jpg" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/IMGP2549.JPG" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/IMGP2555.JPG" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/IMGP2557.JPG" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/IMGP2558.JPG" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/referencje%201.jpg" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/referencje%202.jpg" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/referencje%204.jpg" class="mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/referencje%205.jpg" class="mx-auto d-block" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+        <!--single Modal -->
+        <div class="modal fade bd-example-modal-lg" id="Modal-ref-10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <img src="foto/dyplomatycznie/Satel1003-72dpi.jpg" class="mx-auto d-block" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- single Modal end-->
+    </div>
+    <!--    MODALS END-->
+    <!-- jQuery first, then Tether/popper, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--   own javascript file - random actions-->
+    <script src="main.js"></script>
+</body>
+
+</html>
